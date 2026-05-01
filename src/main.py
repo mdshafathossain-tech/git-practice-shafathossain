@@ -1,12 +1,5 @@
-import datetime
-from utils import add, subtract
+from utils import add, subtract, multiply, divide
 
-name = "Shafat Hossain"
-today = datetime.date.today()
-
-print(f"Hello, my name is {name}")
-print(f"Today's date is: {today}")
-
-# Testing the new calculator functions
-print(f"10 + 5 = {add(10, 5)}")
-print(f"10 - 5 = {subtract(10, 5)}")
+# Existing print statements...
+print(f"10 * 5 = {multiply(10, 5)}")
+print(f"10 / 5 = {divide(10, 5)}")
