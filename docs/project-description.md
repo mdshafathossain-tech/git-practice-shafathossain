@@ -6,6 +6,7 @@ The objective of this project is to demonstrate proficiency in **Git version con
 ## 🛠️ Technical Components
 *   **Version Control:** Implemented branching strategies (`feature/` branches) to develop new tools without affecting the production-ready `main` branch.
 *   **Modular Design:** Created `utils.py` to house reusable mathematical functions (Add, Subtract, Multiply, Divide).
+*   **Main Entry Point:** `main.py` serves as the execution layer, importing and testing all utility functions simultaneously.
 *   **Error Handling:** Implemented `try-except` blocks to handle edge cases like **Division by Zero**, ensuring script stability during data processing.
 *   **Environment Management:** Configured a `.gitignore` file to prevent temporary Python artifacts and environment variables from cluttering the repository.
 
